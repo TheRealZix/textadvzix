@@ -1,0 +1,17 @@
+TEXTADVZIX by zix
+
+-----------------
+
+
+- add functionality to the create_spot() function:
+    - append a "passable" dictionary to each spot which will have 4 Boolean values, one corresponding to each direction and
+      whether that direction is passable from that spot
+       - for certain impassable areas, like ones with locked doors and such, eventually implement some sort of way to
+         undo impassable status
+    - append a "view" or "inspect" value to each spot which is just a string that describes the physical appearance of
+      the spot and any obviously visible items and such
+       - eventually implement higher-tier 'views' if user has reached some sort of foraging/searching 'skill' or
+         possesses some sort of item which may help them find items and passageways which are not as visible otherwise
+    - append an "items" dictionary to each spot which contains string-list pairs that has items which are in/on the spot
+      that may or may not be picked up (and this ability to pick them up could depend on user stats like backpack size,
+      strength if the item is heavy, etc.)

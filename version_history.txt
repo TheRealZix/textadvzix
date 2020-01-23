@@ -1,0 +1,9 @@
+TEXTADVZIX by zix
+A Text Adventure Game
+Version History
+
+v0.0 :: in development (unreleased)
+    * added commands:
+        * help
+        * go
+        * view
